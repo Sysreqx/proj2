@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>proj2</title>
+
+	<!-- OUR STYLESHEET -->
+	<link rel="stylesheet" href="style.css" type="text/css" media="all">
+</head>
+<body>
+	<form>
+		Product name:<br>
+		<input id="prodname" type="text" name="productname" value="Laptop"><br>
+		Product price:<br>
+		<input id="prodprice" type="number" name="productprice" value="1000"><br>
+		<input id="submit" type="submit" value="Submit">
+	</form><br>
+	
+	<div class="wrapper">
+		<table id="myTable">
+			<tr>
+				<th>Product name</th>
+				<th>Product price</th> 
+			</tr>
+		</table>
+		<p>Total price: <span id="cngdprice">0</span>$</p>
+	</div>
+
+	<!-- SCRIPTS -->
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous"></script> 
+
+	<script src='main.js'></script> 
+</body>
+</html>
